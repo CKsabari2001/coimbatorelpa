@@ -2359,3 +2359,69 @@ footer {
   width: 100%;
   padding: 0 10px;
 }
+
+.planning-pro-page ul {
+  margin-top: 20px;
+}
+
+.planning-pro-page ul li {
+  list-style-type: disc;
+  font-size: 16px;
+  padding: 8px 0;
+  color: #252525;
+  font-weight: 500;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .planning-pro-page ul li {
+    font-size: 18px;
+  }
+}
+
+.planning-pro-page ul li span {
+  color: #0069d2;
+}
+
+.planning-pro-table h5 {
+  color: #0069d2;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+.planning-pro-table .table {
+  margin-top: 50px;
+}
+
+.planning-pro-table th {
+  color: #0069d2;
+}
+
+.planning-pro-table .table > :not(caption) > * > * {
+  padding: 0.8rem 0.5rem;
+}
+
+.proposal-gap {
+  margin: 100px 0;
+}
+
+.pro-3 h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.pro-3 ul li {
+  font-size: 16px;
+  text-align: start;
+}
+
+.img-gap {
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .img-gap {
+    margin-top: 100px;
+  }
+}
