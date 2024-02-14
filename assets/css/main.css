@@ -1890,7 +1890,7 @@ h4,
 /* Top Bar */
 .top-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   background-color: #ffd700;
   padding: 8px 15px;
@@ -2223,7 +2223,6 @@ footer {
 
 .kylp-second-sec .kylp-text {
   font-weight: 500;
-  text-transform: lowercase;
   font-size: 20px;
 }
 
@@ -2424,4 +2423,41 @@ footer {
   .img-gap {
     margin-top: 100px;
   }
+}
+
+.plan-sec .plan-text {
+  font-size: 30px !important;
+}
+
+.plan-sec .right-cont h5 {
+  font-size: 28px;
+}
+
+.plan-sec .right-cont h6 {
+  font-size: 18px;
+}
+
+.footer-quick-links li a:hover {
+  color: #0069d2;
+}
+
+.kylp-text span {
+  color: #0069d2;
+}
+
+.download-table .kylp-sub-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.download-table .table {
+  margin-top: 50px;
+}
+
+.download-table .table > :not(caption) > * > * {
+  padding: 0.8rem 0.5rem;
+}
+
+.download-table .table th {
+  color: #0069d2;
 }
