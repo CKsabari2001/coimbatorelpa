@@ -2100,7 +2100,13 @@ section.simple-cta.Master-Plan-sec span p {
   color: #0069d2;
 }
 .Master-Plan-sec .master-plan-img {
-  margin: 50px 0;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .Master-Plan-sec .master-plan-img {
+    margin: 50px 0;
+  }
 }
 
 section.simple-cta.planning-sec p {
