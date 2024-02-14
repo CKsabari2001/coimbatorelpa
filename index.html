@@ -23,12 +23,14 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="vendor/slick/css/slick.css" />
+    <link rel="stylesheet" href="vendor/slick/css/slick-theme.css" />
+    <!-- <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+    /> -->
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
@@ -64,10 +66,10 @@
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
             <li class="scroll-to-section">
-              <a href="#top" class="active">Home</a>
+              <a href="/index.html" class="active">Home</a>
             </li>
             <li class="scroll-to-section">
-              <a href="#services">Know Your LPA</a>
+              <a href="/know-your-lpa.html">Know Your LPA</a>
             </li>
             <li class="scroll-to-section">
               <a href="#about">Master Plan</a>
@@ -282,7 +284,7 @@
               <h4>Know Your LPA</h4>
             </div>
           </div>
-          <div class="col-lg-12">
+          <!-- <div class="col-lg-12">
             <div class="naccs">
               <div class="tabs">
                 <div class="row">
@@ -450,6 +452,255 @@
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-lg-12">
+            <ul
+              class="nav nav-pills kylpa_tabs mb-3"
+              id="kylpa-tabs"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active kylpa_tabs_btn"
+                  id="kylpa_tabs_1"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-1"
+                  type="button"
+                  role="tab"
+                  aria-controls="tabs-1"
+                  aria-selected="true"
+                >
+                  LPA Administrative boundry
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="kylpa_tabs_2"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-2"
+                  type="button"
+                  role="tab"
+                  aria-controls="tabs-2"
+                  aria-selected="false"
+                >
+                  Population
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="kylpa_tabs_3"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-3"
+                  type="button"
+                  role="tab"
+                  aria-controls="tabs-3"
+                  aria-selected="false"
+                >
+                  Density
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="kylpa_tabs_4"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-4"
+                  type="button"
+                  role="tab"
+                  aria-controls="tabs-4"
+                  aria-selected="false"
+                >
+                  Sex Ratio
+                </button>
+              </li>
+            </ul>
+            <div
+              class="tab-content horizontal-scroll kylpa_content"
+              id="kylpa-tabs-content"
+            >
+              <div
+                class="tab-pane fade show active"
+                id="tabs-1"
+                role="tabpanel"
+                aria-labelledby="kylpa_tabs_1"
+              >
+                <table class="table table_design">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Proposed Road Network</th>
+                      <th scope="col">Km</th>
+                      <th scope="col">Phasing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">A1</th>
+                      <td>
+                        200 feet - Proposed (NH)Eastern Ring Road
+                        (Narasimanayakanpalayam to Karanampettai)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A2</th>
+                      <td>
+                        200 feet - Proposed (NH) Sourthern Ring Road (Madukarai
+                        to Selakkarichel)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 3</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A4</th>
+                      <td>
+                        100 feet - Proposed Road (Vilankurichi to Puliyampatti)
+                      </td>
+                      <td>48.6</td>
+                      <td>Phase 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-2"
+                role="tabpanel"
+                aria-labelledby="kylpa_tabs_2"
+              >
+                <table class="table table_design">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Proposed Road Network</th>
+                      <th scope="col">Km</th>
+                      <th scope="col">Phasing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">A1</th>
+                      <td>
+                        200 feet - Proposed (NH)Eastern Ring Road
+                        (Narasimanayakanpalayam to Karanampettai)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A2</th>
+                      <td>
+                        200 feet - Proposed (NH) Sourthern Ring Road (Madukarai
+                        to Selakkarichel)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 3</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A4</th>
+                      <td>
+                        100 feet - Proposed Road (Vilankurichi to Puliyampatti)
+                      </td>
+                      <td>48.6</td>
+                      <td>Phase 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-3"
+                role="tabpanel"
+                aria-labelledby="kylpa_tabs_3"
+              >
+                <table class="table table_design">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Proposed Road Network</th>
+                      <th scope="col">Km</th>
+                      <th scope="col">Phasing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">A1</th>
+                      <td>
+                        200 feet - Proposed (NH)Eastern Ring Road
+                        (Narasimanayakanpalayam to Karanampettai)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A2</th>
+                      <td>
+                        200 feet - Proposed (NH) Sourthern Ring Road (Madukarai
+                        to Selakkarichel)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 3</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A4</th>
+                      <td>
+                        100 feet - Proposed Road (Vilankurichi to Puliyampatti)
+                      </td>
+                      <td>48.6</td>
+                      <td>Phase 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-4"
+                role="tabpanel"
+                aria-labelledby="kylpa_tabs_4"
+              >
+                <table class="table table_design">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Proposed Road Network</th>
+                      <th scope="col">Km</th>
+                      <th scope="col">Phasing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">A1</th>
+                      <td>
+                        200 feet - Proposed (NH)Eastern Ring Road
+                        (Narasimanayakanpalayam to Karanampettai)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A2</th>
+                      <td>
+                        200 feet - Proposed (NH) Sourthern Ring Road (Madukarai
+                        to Selakkarichel)
+                      </td>
+                      <td>81.62</td>
+                      <td>Phase 3</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A4</th>
+                      <td>
+                        100 feet - Proposed Road (Vilankurichi to Puliyampatti)
+                      </td>
+                      <td>48.6</td>
+                      <td>Phase 2</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -1024,6 +1275,86 @@
       <a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
     </section>
 
+    <section class="img-slider">
+      <div class="row">
+        <div class="col-12">
+          <div class="custom-img-slider">
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/about-left-image.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="simple-cta kylp-second-sec my-0 pb-0">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h4>Participate in Building Your Future</h4>
+            </div>
+          </div>
+          <div class="col-lg-10">
+            <h5 class="kylp-text">
+              We are seeking objections and suggestions by feedback from the
+              public on the Master Plan and the Proposed future for Coimbatore
+              LPA.
+            </h5>
+            <h4 class="kylp-text">
+              HI-RES PRINTED MAPS AND REPORT ARE AVAILABLE FOR VIEWING AT
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container">
         <div class="row gap-4 gap-lg-0">
@@ -1101,15 +1432,18 @@
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
+    <script src="vendor/slick/js/slick.min.js"></script>
 
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/swiper.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
+    <!-- <script src="assets/js/isotope.min.js"></script> -->
+    <!-- <script src="assets/js/owl-carousel.js"></script> -->
+
+    <!-- <script src="assets/js/tabs.js"></script> -->
+    <!-- <script src="assets/js/swiper.js"></script> -->
+
+    <!-- <script>
       var interleaveOffset = 0.5;
 
       var swiperOptions = {
@@ -1152,6 +1486,6 @@
       };
 
       var swiper = new Swiper(".swiper-container", swiperOptions);
-    </script>
+    </script> -->
   </body>
 </html>

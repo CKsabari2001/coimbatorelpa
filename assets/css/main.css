@@ -2236,6 +2236,7 @@ footer {
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 100000;
 }
 
 .back-to-top-btn a i {
@@ -2274,4 +2275,81 @@ footer {
     font-size: 32px;
     padding: 15px 20px;
   }
+}
+
+/* Custom kylpa Tabs */
+
+.kylpa_tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.kylpa_tabs .kylpa_tabs_btn {
+  color: #252525 !important;
+}
+
+.nav-link {
+  color: #252525;
+  font-weight: 600;
+  padding: 16px 24px;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #fff;
+  color: #0069d2;
+}
+
+.kylpa_tabs .kylpa_tabs_btn.active {
+  color: #0069d2 !important;
+  background-color: #fff;
+}
+
+.table > :not(caption) > * > * {
+  padding: 2rem 0.5rem;
+}
+
+.table_design thead tr th,
+.table_design tbody tr th {
+  font-weight: 700;
+  font-size: 16px;
+}
+.table_design tbody tr td {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table_design th {
+  color: #0069d2;
+}
+
+.table > :not(:first-child) {
+  border-top: 1px solid #0069d2;
+}
+
+.know-your-lpa-page .row {
+  margin: 50px 0;
+}
+
+@media (min-width: 768px) {
+  .know-your-lpa-page .row {
+    margin: 100px 0;
+  }
+}
+
+.kylpa_content .tab-pane {
+  min-width: 800px;
+  white-space: nowrap;
+}
+
+.img-slider .custom-img-slider img {
+  width: 100%;
+  padding: 0 10px;
 }
