@@ -6,6 +6,10 @@ Welcome to the Tiruppur LPA Research Showcase project repository! This project i
 
 The Tiruppur LPA Research Showcase website is designed to display research data for the client's event in Tiruppur. It provides visitors with an interactive platform to explore and engage with the showcased information. The website includes various sections, such as an image slider, Google Form integration for data submission, clean table sections, and image-with-text sections, to present the research data effectively.
 
+## Demo
+
+Check out the live demo of the Tiruppur LPA Research Showcase - https://cksabari2001-tiruppur-lpa.netlify.app/
+
 ## Key Features
 
 - **Clean and User-Friendly UI**: Enjoy a neat and intuitive user interface, ensuring a seamless browsing experience for visitors.
@@ -33,9 +37,6 @@ The Tiruppur LPA Research Showcase website is designed to display research data 
 
 ![306276057-2152d94c-5eae-487a-84fb-51df35512a41](https://github.com/CKsabari2001/tiruppur-lpa/assets/110533554/79383a09-c61a-404a-91f6-6b28219aa989)
 
-## Demo
-
-Check out the live demo of the Tiruppur LPA Research Showcase - https://cksabari2001-tiruppur-lpa.netlify.app/
 
 ## Run Locally
 
